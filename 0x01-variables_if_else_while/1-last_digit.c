@@ -1,11 +1,12 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
+
 /**
  * main- Entry
-  * Description: Prints last digit of randomly generated no > than 5, < 6, or 0
-  * Return: Always 0
-  */
+ * Description: Prints last digit of randomly generated no > than 5, < 6, or 0
+ * Return: Always 0 (Success)
+ */
 int main(void)
 {
 	int n;
