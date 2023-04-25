@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * add - Add two values
- * @n1: The first number to be conputed 
+ * @n1: The first number to be conputed
  * @n2: The second number to be computed
  * Return: integer value
  */
