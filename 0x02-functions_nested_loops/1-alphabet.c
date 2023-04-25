@@ -2,11 +2,12 @@
 
 /**
  * main - Entry point
- * Description: prints alphabet
+ * Description: prints alphabet in lowercase
  * Return: void
  */
 
 void print_alphabet(void)
+
 {
 	char c;
 
@@ -17,4 +18,4 @@ void print_alphabet(void)
 	_putchar('\n');
 
 }
- 
+
