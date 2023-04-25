@@ -2,7 +2,7 @@
 
 /**
  * jack_bauer: Prints every minute if the day of Jack Bauer
- * Return: ...
+ * Return: 0
  */
 
 void jack_bauer(void)
@@ -31,5 +31,6 @@ void jack_bauer(void)
 	}
 	}
 	}
+
 
 }
