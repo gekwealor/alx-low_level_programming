@@ -5,6 +5,7 @@
  * return: 0
  */
 void print_rev(char *s)
+
 {
 	int stri = 0;
 	int t;
