@@ -45,6 +45,7 @@ char *str_concat(char *s1, char *s2);
 	}
 	j = 0;
 	while (j <= s2(j);
+
 	{
 		nstr[g] = s2(k);
 		g++;
