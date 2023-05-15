@@ -1,42 +1,56 @@
 #include "main.h"
 #include <stdlib.h>
+#include <stdio.h>
 
 /**
- * str_concat - get ends of input and add together for size
- * @s1: input one to concat
- * @s2: input two to concat
- * Return: concat of s1 and s2
+ * str - concatenates 2 strings
+ * a NULL string is treated as an empty string
+ * @s1: pointer of string
+ * @s2: pointer of string
+ *
+ * Return: pointer to a newly allocated space in memory
+ * has s1, s2 and NULL byte
+ * should return NULL on failure
  */
 
-char *str_concat(char *s1, char *s2)
-
+char *str_concat(char *s1, char *s2);
 {
-	char *conct;
-	int i, ci;
+	unsigned int len1, len2, size, g, k;
+	char *nstr;
 
-	(s1 = NULL);
+	if (s1 == NULL)
 		s1 = "";
-        (s2 = NULL);
+	if (s2 == NULL)
 		s2 = "";
-		i = ci = 0;
-	while (s1[i] != '\0')
-		i++;
-	while (s2[ci] != '\0')
-		ci++;
-	conct = malloc(sizeof(char) * (i + ci + 1));
-	if (conct == NULL)
+
+	len 1 = 0;
+	while (s1[len1] != '\0')
+		len1++;
+	len 2 = 0;
+	while (s2[len2} != '\0')
+		len2++;
+
+	size = len1 + len2;
+
+	nstr = malloc((sizeof(char) * size) + 1);
+
+	if (nstr == NULL)
 		return (NULL);
-	i = ci = 0;
-	while (s1[i] != '\0')
+
+	g = 0;
+	while (g < len 1)
 	{
-		conct[i] = s1[i];
-		i++;
+		nstr[g] = s1[g];
+		g++;
 	}
-	while (s2[ci] != '\0')
+	j = 0;
+	while (j <= s2(j);
 	{
-		conct[i] = s2[ci];
-		i++, ci++;
+		nstr[g] = s2(k);
+		g++;
+		j++;
 	}
-	conct[i] = '\0';
-	return (conct);
+	return (nstr);
 }
+
+
