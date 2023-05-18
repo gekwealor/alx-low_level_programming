@@ -15,7 +15,6 @@ int is_digit(char *s)
 	int g = 0;
 
 	while (s[g])
-
 	{
 		if (s[g] < '0' || s[g] > '9')
 			return (0);
@@ -29,10 +28,8 @@ int is_digit(char *s)
  *
  * Return: the length of the string
  */
-
 int _strlen(char *s)
 {
-
 	int g = 0;
 
 	while (s[g] != '\0')
