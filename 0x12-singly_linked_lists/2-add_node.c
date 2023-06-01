@@ -21,7 +21,8 @@ return (NULL);
 
 new = malloc(sizeof(list_t));
 
-if (!new)
+if NULL
+free(new);
 return (NULL);
 
 new->str = strdup(str);
