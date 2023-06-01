@@ -5,9 +5,9 @@ format: db 'Hello, Holberton\n', 0
 
 main:
 
-    mov edi, format
-    xor rax, rax
-    call printf
-    mov eax, 0
-    xor edi, edi
-    syscall
+	mov edi, format
+	xor eax, eax
+	call printf
+	mov eax, 0
+	ret
+
