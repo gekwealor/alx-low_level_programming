@@ -7,9 +7,8 @@ void print_message(void) __attribute__ ((constructor));
  * function is executed
  */
 
-void print(void)
+void print_message(void)
 {
 	printf("You're beat! and yet, you must allow,\n");
 	printf("I bore my house upon my back!\n");
-	return (0);
 }
