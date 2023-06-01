@@ -3,7 +3,7 @@
 void print_message(void) __attribute__ ((constructor));
 
 /**
- * print - prints a sentence before the main
+ * print_message - prints a sentence before the main
  * function is executed
  */
 
