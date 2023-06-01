@@ -19,13 +19,13 @@ if (str == NULL)
 return (NULL);
 }
 
-list_t *new_mode = malloc(sizeof(list_t));
+new = malloc(sizeof(list_t));
 
 if (!new)
 return (NULL);
 
-new_node->str = strdup(str);
-new_node->next = *head;
+new->str = strdup(str);
+new->next = *head;
 (*head) = new;
 
 return (*head);
